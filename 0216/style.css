@@ -13,7 +13,7 @@ body {
   margin: 0;
   background-position: center center;
   background-size: cover;
-  transition: 0.4s;
+  transition: 2s;
 }
 
 body::before {
@@ -48,7 +48,7 @@ body::before {
   z-index: 1;
 }
 
-.slider.active {
+.slide.active {
   opacity: 1;
 }
 
@@ -69,9 +69,9 @@ body::before {
 }
 
 .left-arrow {
-  left: calc(15vw-65px);
+  left: calc(15vw - 65px);
 }
 
 .right-arrow {
-  right: calc(15vw-65px);
+  right: calc(15vw - 65px);
 }
